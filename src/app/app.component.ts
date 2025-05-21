@@ -6,7 +6,10 @@ import { RouterOutlet } from '@angular/router';
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
+  
 })
 export class AppComponent {
   title = 'Angular2Git';
+constructor(){
+  console.log('funciones de prueba'); console.warn("advertencia");console.log("pruea de conflictos")}
 }
